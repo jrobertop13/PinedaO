@@ -1,0 +1,23 @@
+function doPrint(){
+
+document.all.item("noprint").style.visibility='hidden'
+
+window.print()
+
+document.all.item("noprint").style.visibility='visible'
+
+}
+
+</script>
+
+<form....>
+
+...todo lo de aqui se imprimira....
+
+<div id=noprint>
+
+...todo lo de aqui no se imprimira
+
+</div>
+
+</form
