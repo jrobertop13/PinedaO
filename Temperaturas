@@ -1,0 +1,15 @@
+c= (f”45”-32)/9 * 5
+
+F= C”(60”*9)/5+32
+
+Resultado esperado:
+
+60 ° C es de 140 ° F
+
+45 ° F es 7.222222222222222 ° C
+
+var valor1 = prompt("Escribe la cantidad a convertir ");
+
+document.write("el resultado esperado es: " + (valor1-32)/9*5 + " cº");
+
+document.write("<br> el resultado esperado es: " + (valor1*9)/5+32 + " Fº");
